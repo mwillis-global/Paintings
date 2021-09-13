@@ -108,7 +108,7 @@ embed, video {
 
 
 #posts-container {
-    padding: 5rem;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -126,7 +126,7 @@ embed, video {
     display: block;
     max-height: 100vh;
     width: auto;
-    padding: 1px;
+    padding: 3rem;
 }
  
 .post p{
