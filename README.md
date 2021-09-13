@@ -1,1 +1,1 @@
-https://mwillis.global/paintings
+https://mwillis.global/more
