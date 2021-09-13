@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "paintings-26ygrjv3p-4"
+    channelslug: "more-xqs1c75raie"
   };
 
   posts = [];
