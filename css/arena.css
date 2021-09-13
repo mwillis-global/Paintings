@@ -57,7 +57,7 @@ embed, video {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     background-color: #fff;
     
@@ -172,6 +172,7 @@ embed, video {
 }
 
 .post-link{
+    border:1px solid #f2f2f2;
     position: relative;
 }
 
