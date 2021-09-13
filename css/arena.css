@@ -181,6 +181,11 @@ embed, video {
     position: relative;
 }
 
+.post-link img {
+    max-width:500px;
+    padding: 2px;
+}
+
 .post-link-arrow {
     position: absolute;
     bottom: 10px;
