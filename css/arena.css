@@ -126,7 +126,7 @@ embed, video {
     display: block;
     max-height: 100vh;
     width: auto;
-    padding: 3rem;
+    padding: 20px;
 }
  
 .post p{
