@@ -108,7 +108,7 @@ embed, video {
 
 
 #posts-container {
-    padding: 10px;
+    padding: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -176,14 +176,14 @@ embed, video {
 }
 
 .post-link{
-    border:1px solid #f8f8f8;
+    border:1px solid #CCC;
     position: relative;
 }
 
 .post-link-arrow {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    bottom: 10px;
+    right: 10px;
     width:12px;
     height: 12px;
     border-radius: 50px;
