@@ -15,7 +15,7 @@
     page: 0,
     direction: "desc",
     sort: "position",
-    per: 9
+    per: 6
   };
 
   loading = false;
@@ -80,7 +80,7 @@
     $("#post-title", imageTemplate).html(post.generated_title);
     }
     $("#post-desc", imageTemplate).html(post.description_html);
-    $("a.block", imageTemplate).attr("href", 'https://www.are.na/block/' + post.id);
+    $("a.hyperlink", imageTemplate).attr("href", 'https://www.are.na/block/' + post.id);
     $("img", imageTemplate).attr("src", post.image.original.url);
     return imageTemplate;
   };
@@ -91,7 +91,7 @@
     if (post.generated_title !== "Untitled") {
     $("#post-title", textTemplate).text(post.generated_title);
     }
-    $("a.block", textTemplate).attr("href", 'https://www.are.na/block/' + post.id);
+    $("a.hyperlink", textTemplate).attr("href", 'https://www.are.na/block/' + post.id);
     $("#post-content", textTemplate).html(post.content_html);
     return textTemplate;
   };
@@ -103,7 +103,7 @@
     $("#post-title", mediaTemplate).html(post.generated_title);
     }
     $("#post-desc", mediaTemplate).html(post.description_html);
-    $("img", mediaTemplate).attr("src", post.image.thumb.url);
+    $("#post-content", mediaTemplate).html(post.embed.html);
     $("a", mediaTemplate).attr("href", post.source.url);
     $("#post-source", mediaTemplate).html(post.source.url);
     return mediaTemplate;
@@ -116,8 +116,8 @@
     $("#post-title", template).html(post.generated_title);
     }
     $("#post-desc", template).html(post.description_html);
-    $("img", template).attr("src", post.image.thumb.url);
     $("a", template).attr("href", post.source.url);
+    $("img", template).attr("src", post.image.display.url);
     $("#post-source", template).html(post.source.url);
     return template;
   };
