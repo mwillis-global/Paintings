@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "more-xqs1c75raie"
+    channelslug: "spiritual-machines"
   };
 
   posts = [];
