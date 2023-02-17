@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "spiritual-machines"
+    channelslug: "spiritual-machine"
   };
 
   posts = [];
