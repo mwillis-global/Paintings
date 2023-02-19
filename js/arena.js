@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "spiritual-machine"
+    channelslug: "haiku-future-spiritual-machine"
   };
 
   posts = [];
