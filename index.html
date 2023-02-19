@@ -5,21 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- -->
-    <meta name="description" content="mwillis.global/more">
-	<meta name="author" content="Michael Willis">
-    <link rel="alternate" type="application/rss+xml" href="https://www.are.na/mwillis-global/more-xqs1c75raie/feed/rss" />
+    <meta name="description" content="Haiku Future : Spiritual Machine">
+	<meta name="author" content="Haiku Future : Spiritual Machine">
+    <link rel="alternate" type="application/rss+xml" href="https://www.are.na/haiku-future-spiritual-machine/feed/rss" />
     <!-- -->
-    <title>mwillis.global/more</title>
+    <title>Haiku Future : Spiritual Machine</title>
     <link rel="stylesheet" href="css/arena.css"> 
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet">
+    
+    <style>
+
+.info-open {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: #fff;
+        background-color: aqua;
+        z-index: 98;
+    padding: 200px;
+        
+    }
+        
+.infodiv{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 98;
+    background:#FFF;
+            
+        }
+
+
+    </style> 
     
 </head>
 <body>
+
+   
+ 
+<button id="button">Info</button>
+<div id="infodiv" style="display:none;">Haiku Future : Spiritual Machine Information</div>
          
 <!-- ARENA -->
         
 <div id="arena">
 
-    <div id="loading"><span style="padding: 1rem 0; letter-spacing:-0.01rem;">Loading</span></div>
+    <div id="loading">
+        <p>
+            <span class="meta">Haiku Future</span>
+            <span> : Spiritual Machine : </span>
+            <span class="meta">Loading</span>
+        </p>
+    </div>
+    
 	<div id="posts-container">
         <!-- content goes here -->
     </div>
@@ -77,6 +119,12 @@
 </div><!-- END ARENA -->
     
 <!-- JS -->    
+    
+<script>
+jQuery("#button").click(function() {
+    jQuery("#infodiv").toggle();
+});</script>
+
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/arena.js"></script>
