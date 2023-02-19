@@ -1,1 +1,1 @@
-The Age of Spiritual Machines
+HAIKU FUTURE : SPIRITUAL MACHINE
