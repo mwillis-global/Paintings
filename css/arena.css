@@ -61,11 +61,15 @@ embed, video {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f00;
     
     z-index: 99;
     visibility: hidden;
     opacity: 0;
+    
+    background-color:rgba(0,0,0,.6);
+    
+     -webkit-backdrop-filter: blur(30px);
+     backdrop-filter: blur(30px);
     
     -webkit-transition: opacity 100s, visibility 1.3s;
     -moz-transition: opacity 100s, visibility 1.3s;
@@ -76,13 +80,13 @@ embed, video {
     font-size: .8rem;
     padding: 1rem 0; 
     text-align: center;
-    color:#000;
+    color:#fff;
 }
 
 /* loading dots*/
 
 #loading > p:after {
-  content: ".";
+  content: " ";
   animation: dots .65s steps(5, end) infinite;
   padding: 1rem 0;
   font-size: 1rem;
@@ -313,6 +317,9 @@ embed, video {
     background-color:rgba(0,0,0,.6);
     color: #fff;
     z-index: 97;
+    
+     -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
 }
     
 #infomation div {
@@ -320,9 +327,8 @@ embed, video {
 }
 
 .info-body{
-    font-family: 'IBM Plex Mono', monospace;
-    letter-spacing:-0.033rem;
-    font-size:24px;
+    font-family: 'Cousine', monospace;
+    font-size:22px;
 
 }
     
@@ -333,3 +339,16 @@ embed, video {
     bottom:0;
 }
     
+
+.info-header {
+    /*font-family: 'Cousine', monospace;*/
+    font-size:21px;
+    padding-right: 10px;
+    color:dodgerblue;
+}
+
+#intro {
+    padding: 1rem;
+    color: #FFF;
+    text-align: center;
+}
