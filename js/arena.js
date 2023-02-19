@@ -1,3 +1,8 @@
+$("#info-link, #close").click(function() {
+  $("#infomation, #info-link, #close").toggle();
+});  
+
+
 (function() {
   var addImagePost, addLinkPost, addMediaPost, addPost, addTextPost, buildQuery, getTemplate, loadPosts, loading, nextPage, posts, queryOptions, settings;
 
